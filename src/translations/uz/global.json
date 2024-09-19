@@ -1,0 +1,57 @@
+{
+    "header": {
+        "navlink1": "Asosiy",
+        "navlink2": "Biz haqimizda",
+        "navlink3": "Kurslar",
+        "navlink4": "Ustozlar",
+        "navlink5": "Bog'lanish",
+        "switchlang": "Tilni o'zgartirish",
+        "menu1": "O'zbekcha",
+        "menu2": "Ruscha"
+    },
+    "hero": {
+        "title": "Farzandlaringiz kelajagini biz bilan birgalikda quring!",
+        "btn": "Kurslar"
+    },
+    "about": {
+        "text1": "Ustozlar",
+        "text2": "O'quvchilar",
+        "text3": "Videodarsliklar",
+        "text4": "Foydalanuvchilar"
+    },
+    "courses": {
+        "title": "Bizning Kurslarimiz",
+        "desc": "Bu yerda siz bizning barcha kurslarimiz haqida to'liq ma'lumot olishingiz mumkin",
+        "detail": "Batafsil ma'lumot"
+    },
+    "fullAbout": {
+        "title": "Bizning Haqimizda",
+        "desc": "Bu yerda siz bizning o'quv markazimiz haqida to'liq ma'lumot olishingiz mumkin",
+        "about": "Urganch shahri markazida joylashgan bolalar o‘quv markazi. O‘quv markazimizda matematika + IQ, ingliz va rus tillari, maktabgacha ta’lim bo‘yicha kurslar, shuningdek, prezident maktabi va xalqaro olimpiadalarga kirish imtihonlariga tayyorgarlik ko‘rish uchun mo‘ljallangan kurslarni topishingiz mumkin. Bundan tashqari, “KIDS MATH” o'quv markazi bolalarni ko'chirish xizmatini taqdim etadi, bu band ota-onalar uchun juda qulaydir. Bizning barcha o'qituvchilarimiz yuqori malakali va bolalar bilan ishlash tajribasiga ega."
+    },
+    "teachers": {
+        "title": "Bizning Ustozlarimiz",
+        "desc": "Bu yerda siz bizning ustozlarimiz haqida to'liq ma'lumot olishingiz mumkin",
+        "btn": "Batafsil Ma'lumot"
+    },
+    "contact": {
+        "title": "Telefon raqamingizni qoldiring va Kurslar haqida bepul ma'lumot oling!",
+        "label": "Telefon Raqamingiz",
+        "helperText": "Eslatma: Biz raqamingizni hech qachon tarqatmaymiz!",
+        "btn": "Topshirish",
+        "desc": "Siz bu yerda telefon raqamingizni qoldirishingiz orqali administratorlarimizdan kurslar haqida bepul ma'lumot olishingiz va kurslarga yozilishingiz mumkin!"
+    },
+    "footer": {
+        "links": "Havolalar",
+        "link1": "Asosiy",
+        "link2": "Biz haqimizda",
+        "link3": "Kurslar",
+        "link4": "Ustozlar",
+        "link5": "Bog'lanish",
+        "contacts": "Kontaktlar",
+        "contact1": "Mobil chaqiruv",
+        "contact2": "Elektron pochta",
+        "contact3": "Manzil",
+        "contactDesc": "Siz bu yerda biz bilan bog'lanish ma'lumotlarini topishingiz mumkin"
+    }
+}
