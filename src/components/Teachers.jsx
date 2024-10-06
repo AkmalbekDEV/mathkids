@@ -46,7 +46,7 @@ const Teachers = () => {
       {selectedTeacher && (
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
-          <ModalContent className='max-sm:mx-5'>
+          <ModalContent className='max-sm:mx-5' h={'80%'} overflowY={'scroll'}>
             <ModalHeader>{selectedTeacher.name}</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
