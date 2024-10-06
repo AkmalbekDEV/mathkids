@@ -60,7 +60,7 @@ const Navbar = () => {
             <a href="#courses" className='hover:text-orange-300 transition-all'>{t("header.navlink3")}</a>
             <a href="#teachers" className='hover:text-orange-300 transition-all'>{t("header.navlink4")}</a>
             <a href="#contact" className='hover:text-orange-300 transition-all'>{t("header.navlink5")}</a>
-            <a href="https://math-kids-platform.vercel.app" className='hover:text-orange-300 transition-all'>{t("header.navlink5")}</a>
+            <a href="https://math-kids-platform.vercel.app" className='hover:text-orange-300 transition-all'>{t("header.navlink6")}</a>
           </nav>
           <div className='flex items-center gap-3 text-white'>
             <ReactCountryFlag title='UZ' countryCode='UZ' svg className='cursor-pointer' onClick={() => handleChangeLanguage("uz")} />
