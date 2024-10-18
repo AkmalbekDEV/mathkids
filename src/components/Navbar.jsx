@@ -15,7 +15,7 @@ import {
   MenuIcon,
   Box,
 } from '@chakra-ui/react'
-import { BsArrowDown, BsInfo, BsInfoCircle } from 'react-icons/bs'
+import { BsApp, BsArrowDown, BsInfo, BsInfoCircle } from 'react-icons/bs'
 import ReactCountryFlag from 'react-country-flag'
 import {
   Drawer,
@@ -79,11 +79,12 @@ const Navbar = () => {
               <DrawerHeader>Menyu</DrawerHeader>
 
               <DrawerBody px={0}>
-                <a href="#hero" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><BiHome size={30} /> Asosiy</a>
-                <a href="#fullAbout" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><BsInfoCircle size={30} /> Biz haqimizda</a>
-                <a href="#courses" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><PiCards size={30} /> Kurslar</a>
-                <a href="#teachers" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><GiTeacher size={30} /> Ustozlar</a>
-                <a href="#contact" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><GrContact size={30} /> Bog'lanish</a>
+                <a href="#hero" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><BiHome size={30} /> {t("header.navlink1")}</a>
+                <a href="#fullAbout" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><BsInfoCircle size={30} /> {t("header.navlink2")}</a>
+                <a href="#courses" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><PiCards size={30} /> {t("header.navlink3")}</a>
+                <a href="#teachers" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><GiTeacher size={30} /> {t("header.navlink4")}</a>
+                <a href="#contact" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><GrContact size={30} /> {t("header.navlink5")}</a>
+                <a href="https://math-kids-platform.vercel.app" className='py-3 px-8 cursor-pointer transition-all hover:bg-gray-100 text-xl font-medium flex gap-3 items-center'><BsApp size={30} /> {t("header.navlink6")}</a>
               </DrawerBody>
 
               <DrawerFooter>
